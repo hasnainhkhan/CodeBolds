@@ -2,6 +2,7 @@ package com.CodeBolds.info.entities;
 
 import java.util.Date;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -38,12 +39,12 @@ public class BlogsEntity {
 	    createdAt = new Date();
 	}
 	
-	@ManyToOne
-    @JoinColumn(name = "author_id")
-	private AuthorEntity author;
+//	@ManyToOne(cascade = CascadeType.MERGE)
+//    @JoinColumn(name = "author_id")
+	private String author;
 	
-	@ManyToOne
-    @JoinColumn(name = "user_id")
-	private UserEntity user;
+//	@ManyToOne(cascade = CascadeType.ALL)
+//    @JoinColumn(name = "user_id")
+	private String user;
 
 }
