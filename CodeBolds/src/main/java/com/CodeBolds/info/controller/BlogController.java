@@ -93,7 +93,7 @@ public class BlogController {
 	  
 
 	    public BlogController(HuggingFaceService huggingFaceService) {
-	        this.huggingFaceService = huggingFaceService;
+	        this.huggingFaceService = huggingFaceService; //args constructure
 	    }
 
 	    @PostMapping("/summarize")
