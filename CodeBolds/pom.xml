@@ -99,6 +99,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>CodeBolds-docker</finalName>
 	</build>
 
 </project>
