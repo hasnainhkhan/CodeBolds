@@ -101,5 +101,8 @@ public class BlogController {
 	        String summary = huggingFaceService.summarizeText(request.getBlogContent());
 	        return ResponseEntity.ok(summary);
 	    }
+	    public String ma() {
+	    	return "this is main";
+	    }
 	
 }
