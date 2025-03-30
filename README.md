@@ -1,5 +1,5 @@
 # Project: Blog Backend Service
-
+# spring boot
 ## Overview
 This project is a backend service built using Java Spring Boot that allows users to create, retrieve, and manage blogs. It includes database interactions using JPA, an AI-powered text summarization feature, and deployment on AWS. The goal is to provide a scalable and efficient blog management system.
 
