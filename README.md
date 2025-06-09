@@ -10,7 +10,7 @@ The application provides RESTful APIs to manage blogs, including adding, updatin
 
 ### 2. AI-Powered Text Summarization
 A dedicated endpoint is available to summarize blog content using the OpenAI API or a simple NLP library like spaCy. This helps users get quick insights from long-form content.
-
+. 
 ### 3. Deployment on AWS
 The application is containerized using Docker and can be deployed on AWS EC2 or AWS Lambda with API Gateway. Optional features include storing blog images in AWS S3.
 
